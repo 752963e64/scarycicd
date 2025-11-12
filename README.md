@@ -65,4 +65,6 @@ Stage: lol2 (1 job(s))
 ============================================================
 ```
 
+[original implementation here](https://muhammadraza.me/2025/building-cicd-pipeline-runner-python/)
+
 ###### No program been harmed awhile the tests.
