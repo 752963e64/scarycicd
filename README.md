@@ -4,7 +4,13 @@ Uses Python3 and docker as root :smile_cat:.
 
 [GTFObins.docker](https://gtfobins.github.io/gtfobins/docker/)
 
-here is the output.
+- Docker stick an interesting program to those who know how to use it...
+
+- Docker has its place in a seperate host.
+
+- It shouldn't be used on a desktop directly but in virtual machine...
+
+here is the output scarycicd.py.
 
 ```text
 python scarycicd.py scaryline.yml 
@@ -58,3 +64,5 @@ Stage: lol2 (1 job(s))
   Jobs executed: 4
 ============================================================
 ```
+
+###### No program been harmed awhile the tests.
