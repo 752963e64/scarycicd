@@ -1,0 +1,33 @@
+stages:
+  - lol0
+  - lol1
+  - lol2
+
+scary-lint:
+  stage: lol0
+  image: python:3.12
+  script:
+    - id
+
+scary-test:
+  stage: lol0
+  image: python:3.12
+  script:
+    - id
+
+scary-package:
+  stage: lol1
+  image: python:3.12
+  needs:
+    - scary-lint
+    - scary-test
+  script:
+    - id
+
+scary-app:
+  stage: lol2
+  image: alpine:latest
+  needs:
+    - build-package
+  script:
+    - id
